@@ -13,6 +13,7 @@ button {
     font-weight: bold;
     outline: none;
     box-shadow: 0 2vh;
+    width: 23vw;
 }
 
 .container {
