@@ -13,7 +13,8 @@ button {
     font-weight: bold;
     outline: none;
     box-shadow: 0 2vh;
-    width: 360px;
+    width: 350px;
+    height: 115px;
 }
 
 .container {
