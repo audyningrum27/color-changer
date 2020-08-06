@@ -5,15 +5,15 @@ body {
 
 button {
     margin-top: 41vh;
-    padding: 3vh;
+    padding: 2vh;
     background-color: transparent;
     border: 0.5vh solid orange;
-    font-size: 6vh;
+    font-size: 5.5vh;
     border-radius: 25vh;
     font-weight: bold;
     outline: none;
     box-shadow: 0 2vh;
-    width: 310px;
+    width: 360px;
 }
 
 .container {
