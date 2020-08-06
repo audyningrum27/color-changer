@@ -1,3 +1,3 @@
 # Color Changer
 
-<h3>Quiz Code Challenge [Team Up]</h3>
+<h3>Quiz Code Challenge - pt.1 [Team Up]</h3>
