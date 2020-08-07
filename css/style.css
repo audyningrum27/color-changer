@@ -1,27 +1,60 @@
 body {
     margin: 0;
     padding: 0;
+    transition: all 1s;
+    font-family: 'Jua',
+    sans-serif;
+}
+
+h1 {
+    margin: 25vh 0 4vh 0;
+    text-align: center;
+    font-size: 7vh;
+    opacity: 0.5;
+}
+
+.warna {
+    width: 275px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+h6, p {
+    text-align: center;
+    margin: 0;
+    padding: 1vh 2vh;
+    font-size: 2vh;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 3vh;
+    text-transform: uppercase;
 }
 
 button {
-    margin-top: 41vh;
+    font-family: 'Jua',
+    sans-serif;
     padding: 2vh;
     background-color: transparent;
     border: 0.5vh solid orange;
-    font-size: 5.5vh;
-    border-radius: 25vh;
+    font-size: 5vh;
+    border-radius: 10px;
     font-weight: bold;
     outline: none;
-    box-shadow: 0 2vh;
-    width: 350px;
-    height: 115px;
+    box-shadow: 0 1.25vh;
+    margin-top: 4vh;
+    transition: all 1s;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    margin-bottom: 25vh;
 }
 
 button:hover {
@@ -31,5 +64,6 @@ button:hover {
 button:active {
     box-shadow: none;
     position: relative;
-    top: 2vh;
+    top: 1.25vh;
+    transition: none;
 }
